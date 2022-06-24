@@ -120,32 +120,18 @@ img {
   position: relative;
 }
 
-.logo-it {
-  width: 80px;
-  height: 80px;
-}
-
-.insert-header {
-  font-size: 20px;
-  color: #FF5C00;
-  background-color: #8b0000;
-  text-align: center;
-}
-
-@media screen and (max-width: 1200px) {
-  .insert-header {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .insert-header {
-    margin-left: 100px;
-    width: 500px;
-  }
+.site-nav__logo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: auto;
+  height: 70px;
+  max-width: 66px;
 }
 
 @media screen and (min-width: 768px) {
